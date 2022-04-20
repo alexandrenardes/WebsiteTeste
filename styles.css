@@ -48,10 +48,12 @@ body{
 
 .div-perfil{
     text-align: center;
-    background: #eee;
+    background: rgb(255, 255, 255);
+    height: 90vh;
 }
-
+/*
 .img-perfil{
     border-radius: 50%;
     height: 500px;
 }
+*/
