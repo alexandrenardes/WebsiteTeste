@@ -46,3 +46,24 @@ body{
     margin-left: 32px;
 }
 
+.caixa {
+    background: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 80vh;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 5vh;
+    text-align: right;
+    margin-right: 200px;
+    position: flex;
+}
+
+.tenis{
+    position: absolute;
+    margin-left: 200px;
+    margin-right: 800px;
+    height: 70%;
+}
