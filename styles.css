@@ -7,7 +7,7 @@
 }
 
 a{
-    color: rgb(255, 255, 255);
+    color: #EDE6DB;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -32,7 +32,7 @@ nav{
 }
 
 body{
-    background: linear-gradient(to bottom right, rgb(4, 24, 51), rgb(12, 0, 63));
+    background: linear-gradient(to bottom right,#1A3C40,#1D5C63);
     height: 92vh;
 }
 
@@ -46,14 +46,3 @@ body{
     margin-left: 32px;
 }
 
-.div-perfil{
-    text-align: center;
-    background: rgb(255, 255, 255);
-    height: 90vh;
-}
-/*
-.img-perfil{
-    border-radius: 50%;
-    height: 500px;
-}
-*/
