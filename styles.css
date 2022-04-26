@@ -7,7 +7,9 @@
 }
 
 a{
-    color: #fcb94d;
+    
+    color: rgb(0, 0, 0);
+    text-shadow:  rgb(255, 255, 255) 0.1em 0.1em 0.2em ;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -25,6 +27,7 @@ a:hover{
 }
 
 nav{
+    margin-top: 5vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -32,7 +35,6 @@ nav{
 }
 
 body{
-    background: linear-gradient(to bottom right,#fafafa,#d8d8d8);
     height: 92vh;
 }
 
@@ -48,22 +50,38 @@ body{
 
 .caixa {
     background: rgb(255, 255, 255);
-    margin-left: 50px;
-    margin-right: 50px;
-    height: 80vh;
+    margin-top: 5vh;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 70vh;
     border-radius: 10px;
 }
 
-h1{
-    font-size: 5vh;
-    text-align: right;
-    margin-right: 200px;
+h1, .tenis{
+    font-size: 50vh;
+    text-align: center;
     position: flex;
 }
 
 .tenis{
-    position: absolute;
-    margin-left: 200px;
-    margin-right: 800px;
-    height: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        height: 80vh;
 }
+
+.canto{
+    position: absolute;
+    top: -1vh;
+    height: 30px;
+    width: 35px;
+    z-index: 100;
+ }
+
+ .tenis-zoom{
+     height: 20vh;
+     position: absolute;
+     margin-left: 160vh;
+ }
