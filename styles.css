@@ -58,18 +58,17 @@ body{
 }
 
 h1, .tenis{
-    font-size: 50vh;
+    font-size: clamp(20em, 2em + 1vw, 1.5em);
     text-align: center;
     position: flex;
 }
 
+
 .tenis{
+        width: 35%;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        height: 80vh;
+        top: 15%;
+        left: 32%;
 }
 
 .canto{
@@ -81,7 +80,10 @@ h1, .tenis{
  }
 
  .tenis-zoom{
-     height: 20vh;
-     position: absolute;
-     margin-left: 160vh;
+    width: 300%;
+    right: -200vh;
+    position: absolute;
  }
+
+
+ 
